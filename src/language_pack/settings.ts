@@ -1,0 +1,36 @@
+export type Lang = "en" | "cs" | "de";
+export const SettingsLang: Record<Lang, Record<string, string>> = {
+  en: {
+    settings: "SETTINGS",
+    darkMode: "Dark mode",
+    switch: "Switch",
+    switch2: "Switch 2",
+    switch3: "Switch 3",
+    siteLanguage: "Site language",
+    en: "English",
+    cs: "Czech",
+    de: "German",
+  },
+  cs: {
+    settings: "NASTAVENÍ",
+    darkMode: "Tmavý režim",
+    switch: "Přepínač",
+    switch2: "Přepínač 2",
+    switch3: "Přepínač 3",
+    siteLanguage: "Jazyk webu",
+    en: "Angličtina",
+    cs: "Čeština",
+    de: "Němčina",
+  },
+  de: {
+    settings: "EINSTELLUNGEN",
+    darkMode: "Dunkelmodus",
+    switch: "Schalter",
+    switch2: "Schalter 2",
+    switch3: "Schalter 3",
+    siteLanguage: "Seitensprache",
+    en: "Englisch",
+    cs: "Tschechisch",
+    de: "Deutsch",
+  },
+};
